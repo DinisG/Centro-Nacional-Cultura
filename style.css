@@ -1,0 +1,186 @@
+a{text-decoration: none;}
+*{box-sizing: border-box;}
+html {
+  scroll-behavior: smooth;
+ }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift', sans-serif;
+    background-color: #BBB2A5;
+}
+
+.gfg {
+    position: relative;
+    margin: 0;
+}
+
+.first-txt {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+.second-txt {
+    position: absolute;
+    top:14%;
+    bottom: 50%;
+    left: 3%;
+    color: white;
+    font-family: 'Bahnschrift', sans-serif;
+    font-size:500%;
+}
+.gfg img {
+    padding: 0%;
+    width: 100%;
+    margin: 0%;
+}
+
+.header ul {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 40px;
+  }
+  
+  .header li {
+    float: left;
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 200%;
+  }
+  
+  .header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+
+  .header li a:hover {
+    color:black;
+  }
+
+  .btn{
+    position: absolute;
+    top:60%;
+    left: 3%;
+    color: white;
+    font-family: 'Bahnschrift', sans-serif;
+    font-size:300%;
+    background-color: rgba(255,255,255,.5);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .third-txt {
+    position: absolute;
+    top:80%;
+    right: 5%;
+    color: white;
+    font-family: 'Bahnschrift', sans-serif;
+    font-size:200%;
+    text-align: left;
+}
+
+.last-txt {
+    position: absolute;
+    top:75%;
+    right: 5%;
+    color: white;
+    font-family: 'Bahnschrift', sans-serif;
+    font-size:200%;
+    text-align: left;
+}
+
+.row {
+  display:flex;
+  padding-top: 8%;
+  background-color: #BBB2A5;
+  padding-left: 15%;
+}
+
+.column {
+  padding-right: 13%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.texto1{
+  font-size: 32px;
+  color: white;
+  padding-top: 6%;
+  font-family: 'Bahnschrift', sans-serif;
+  text-align: center;
+}
+.texto2{
+  font-size: 22px;
+  color: white;
+  padding-top: 2%;
+  font-family: 'Bahnschrift', sans-serif;
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.row img{
+  width:50%
+}
+
+.desc {
+  position: absolute;
+  top:18%;
+  bottom: 50%;
+  left: 3%;
+  color: white;
+  font-family: 'Bahnschrift', sans-serif;
+  font-size:200%;
+  text-align:inherit;
+}
+
+.desc2{
+  background-color: #BBB2A5;
+  margin-top: 0;
+  padding-top:2%;
+  padding-bottom:2%;
+  color: white;
+  font-size: 150%;
+  font-family: 'Bahnschrift', sans-serif;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.mapa img{
+  width: 100%;
+}
+
+.footer{
+  text-align: center;
+}
+.footer img{
+  width: 5%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+hr{
+  margin-top: 2%;
+  width: 80%;
+  height: 5px;
+  background-color: white;
+  margin-bottom: 2%;
+}
